@@ -4,3 +4,18 @@
   box-sizing: border-box;
   font-family: "Nunito";
 }
+
+header {
+  color: #fff;
+}
+
+.logo-div {
+  width: 70px;
+  background: rgb(235, 188, 36);
+  height: 70px;
+  border-radius: 50%;
+}
+
+.logo-div img {
+  width: 100%;
+}
