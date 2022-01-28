@@ -9,6 +9,11 @@ header {
   color: #fff;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .logo-div {
   width: 70px;
   background: rgb(235, 188, 36);
