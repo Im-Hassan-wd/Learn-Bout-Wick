@@ -21,5 +21,6 @@ function moveUp(e) {
 }
 
 function expandWorld() {
-    
+    console.log(window.outerWidth);
+    gameArea.style.width = "100px";
 }
