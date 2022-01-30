@@ -6,9 +6,11 @@ window.addEventListener("keydown", (e) => {
 
 function moveUp(e) {
     const key = e.key;
-    console.log(e)
 
-    if(key == '') {
-
+    if(key == 'ArrowUp') {
+        console.log("you pressed" + key)
+    }
+    else if(key == 'ArrowDown') {
+        console.log("you pressed" + key)
     }
 }
