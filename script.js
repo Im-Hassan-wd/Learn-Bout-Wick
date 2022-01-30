@@ -14,10 +14,11 @@ function moveUp(e) {
     const key = e.key;
 
     if(key == 'ArrowUp') {
-        bird.style.transform.translateY = "1000px";
+        bird.style.transform = "translateY(0px)";
     }
     else if(key == 'ArrowDown') {
         console.log("you pressed" + key)
+        bird.style.transform = "translateY(30px)";
     }
 }
 
