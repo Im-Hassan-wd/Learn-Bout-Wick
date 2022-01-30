@@ -9,6 +9,10 @@ body {
   color: #233742;
 }
 
+header {
+  /* height: 10vh; */
+}
+
 .container {
   margin: 0 auto;
   max-width: 1150px;
