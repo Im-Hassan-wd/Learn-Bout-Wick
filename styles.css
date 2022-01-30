@@ -76,4 +76,9 @@ h1 {
   .navigation {
     flex-direction: column;
   }
+
+  .navigation ul {
+    padding-top: 20px;
+    width: 80%;
+  }
 }
