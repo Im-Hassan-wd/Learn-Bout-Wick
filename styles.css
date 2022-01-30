@@ -88,4 +88,15 @@ h1 {
 }
 
 .game-area {
+  width: 100%;
+  min-height: 50vh;
+  background: rgb(236, 212, 132);
+}
+
+.bird-div {
+  width: 80px;
+}
+
+.bird-div img {
+  width: 100%;
 }
