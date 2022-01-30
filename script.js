@@ -1,6 +1,7 @@
 const bird = document.querySelector(".bird");
+console.log(bird)
 const button = document.querySelector("button");
-const gameArea = document.querySelector(".game-area");
+let gameArea = document.querySelector(".game-area");
 
 //event listerners
 window.addEventListener("keydown", (e) => {
@@ -13,7 +14,7 @@ function moveUp(e) {
     const key = e.key;
 
     if(key == 'ArrowUp') {
-        console.log("you pressed" + key)
+        bird.style.transform.translateY = "1000px";
     }
     else if(key == 'ArrowDown') {
         console.log("you pressed" + key)
@@ -21,6 +22,9 @@ function moveUp(e) {
 }
 
 function expandWorld() {
-    console.log(window.outerWidth);
-    gameArea.style.width = "100px";
+    gameArea.style.width = window.outerWidth + "px";
+    setInterval(() => {
+        window.outerWidth += 100;
+        gameArea.style.width = window.outerWidth + "px";
+    }, 1000);
 }
