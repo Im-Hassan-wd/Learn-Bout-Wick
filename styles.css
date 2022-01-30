@@ -5,8 +5,8 @@
   font-family: "Nunito", sans-serif;
 }
 
-header {
-  color: #fff;
+body {
+  color: #233742;
 }
 
 .container {
@@ -41,11 +41,16 @@ header {
 
 .logo-div {
   width: 70px;
-  background: rgb(235, 188, 36);
+  background: #d23f8e;
   height: 70px;
   border-radius: 50%;
+  /* background: #233742; */
 }
 
 .logo-div img {
   width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
 }
