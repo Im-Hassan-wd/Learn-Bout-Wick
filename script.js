@@ -14,8 +14,15 @@ function createOverview (){
   image.src = path[index];
   image.alt = 'avatar';
   imageDiv.append(image);
+  setInterval(() => {
+    image.style.transform = 'translateX(-100px)';  
+  }, 500)
+
+  setTimeout(() => {
+    clearInterval(timer)
+  } ,10000)
 }
 
-setInterval(() => {
-//  createOverview();
-},3000)
+const timer = setInterval(() => {
+ createOverview();
+}, 2000)
