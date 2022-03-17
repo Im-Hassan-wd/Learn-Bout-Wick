@@ -37,7 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 0;
+  padding: 2%;
 }
 
 .navigation ul {
@@ -75,21 +75,24 @@ header {
 }
 
 .logo-div {
-  width: 70px;
+  width: 60px;
   background: #d23f8e;
-  height: 70px;
+  height: 60px;
   border-radius: 50%;
-  /* background: #233742; */
 }
 
 .logo-div img {
   width: 100%;
 }
 
+.intro {
+  margin: 20px 0;
+}
+
 .intro h1 {
   max-width: 450px;
   line-height: 3rem;
-  margin: 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 .intro p {
