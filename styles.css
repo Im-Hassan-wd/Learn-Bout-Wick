@@ -7,10 +7,11 @@
 
 body {
   color: #233742;
+  background: #fafafa;
 }
 
 header {
-  /* height: 10vh; */
+  background: #fff;
 }
 
 .container {
@@ -23,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3% 0;
+  padding: 1% 0;
 }
 
 .navigation ul {
@@ -85,27 +86,4 @@ h1 {
     padding-top: 20px;
     width: 80%;
   }
-}
-
-.game-area {
-  width: 100%;
-  min-height: 50vh;
-  background: rgb(236, 212, 132);
-}
-
-.bird-div {
-  width: 80px;
-}
-
-.bird {
-  width: 100%;
-  transform: translateY(100px);
-  transition: 0.3s linear;
-}
-
-.pillar {
-  width: 20px;
-  height: 100px;
-  background: brown;
-  position: absolute;
 }
