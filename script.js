@@ -1,7 +1,8 @@
 const reviewOverview = document.querySelector('.review-overview');
 const path = [
-    './asset/8.jpg', './asset/10.jpg', './asset/6.jpg'
+  './asset/8.jpg', './asset/10.jpg', './asset/6.jpg'
 ]
+
 // functions
 function createOverview (){
   let index = Math.floor(Math.random() * path.length);
@@ -15,12 +16,12 @@ function createOverview (){
   image.alt = 'avatar';
   imageDiv.append(image);
   setInterval(() => {
-    image.style.transform = 'translateX(-100px)';  
-  }, 500)
+    reviewOverview.style.transform = 'translateX(-400px)';  
+  }, 1000)
 
   setTimeout(() => {
     clearInterval(timer)
-  } ,10000)
+  }, 10000)
 }
 
 const timer = setInterval(() => {

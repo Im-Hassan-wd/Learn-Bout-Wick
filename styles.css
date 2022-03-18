@@ -118,7 +118,7 @@ section > .intro {
 }
 
 .review-overview img {
-  transition: 2s ease;
+  transition: 3s ease;
   /* transform: translateX(-600px); */
   border-radius: 50%;
   width: 100%;
