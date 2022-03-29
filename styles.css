@@ -104,8 +104,9 @@ section > .intro {
 }
 
 /* ______how-we-work section____ */
+
 .how-we-work {
-  margin: 30px 0;
+  margin-bottom: 100px;
 }
 
 .how-we-work .content {
@@ -116,6 +117,12 @@ section > .intro {
 
 .how-we-work img {
   width: 40px;
+}
+
+/* ______selected project section____ */
+section.reviews {
+  margin-bottom: 100px;
+  background: #fff;
 }
 
 /* --------------------media query------------- */
