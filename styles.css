@@ -104,18 +104,18 @@ section > .intro {
 }
 
 /* ______how-we-work section____ */
-
 .how-we-work {
+  margin: 30px 0;
+}
+
+.how-we-work .content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  background: #ebbc24;
   gap: 1rem;
 }
 
 .how-we-work img {
-  display: block;
   width: 40px;
-  margin: 0 auto;
 }
 
 /* --------------------media query------------- */
