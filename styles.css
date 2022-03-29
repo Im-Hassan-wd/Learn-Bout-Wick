@@ -103,31 +103,12 @@ section > .intro {
   max-width: 450px;
 }
 
-.review-overview {
-  position: absolute;
-  right: 10%;
-  top: 40%;
-  display: flex;
-  align-items: center;
-  transition: 10s ease;
+/* ______how-we-work section____ */
+.how-we-work img {
+  width: 50px;
 }
 
-.review-overview:hover {
-  transform: translateY(10px);
-}
-
-.review-overview div {
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
-}
-
-.review-overview img {
-  /* transform: translateX(-600px); */
-  border-radius: 50%;
-  width: 100%;
-}
-
+/* --------------------media query------------- */
 @media (max-width: 700px) {
   .navigation {
     flex-direction: column;
