@@ -37,7 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 1%;
 }
 
 .navigation ul {
@@ -110,6 +110,10 @@ section > .intro {
   display: flex;
   align-items: center;
   transition: 10s ease;
+}
+
+.review-overview:hover {
+  transform: translateY(10px);
 }
 
 .review-overview div {
