@@ -108,10 +108,14 @@ section > .intro {
 .how-we-work {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background: #ebbc24;
+  gap: 1rem;
 }
 
 .how-we-work img {
-  width: 50px;
+  display: block;
+  width: 40px;
+  margin: 0 auto;
 }
 
 /* --------------------media query------------- */
