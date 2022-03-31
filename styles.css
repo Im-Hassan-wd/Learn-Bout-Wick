@@ -138,6 +138,10 @@ section > .intro {
   margin: 20px 0;
 }
 
+.selected-project > div > div:nth-child(2) > div {
+  order: -1;
+}
+
 .selected-project .project div {
   max-width: 400px;
   margin: 0 auto;
