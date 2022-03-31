@@ -10,15 +10,18 @@ body {
   background: #fafafa;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-h2 {
-  font-size: 2rem;
+h1, h2, h3, h4 {
   margin: 10px 0;
 }
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 p {
   font-size: 1rem;
@@ -121,6 +124,10 @@ section > .intro {
 }
 
 /* ______selected project section____ */
+.selected-project {
+  margin-bottom: 100px;
+}
+
 .selected-project img{
   width: 500px;
 }
@@ -131,7 +138,7 @@ section > .intro {
   margin: 20px 0;
 }
 
-.selected-project p {
+.selected-project .project div {
   max-width: 400px;
   margin: 0 auto;
 }
