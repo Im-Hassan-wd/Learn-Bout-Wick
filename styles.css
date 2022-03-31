@@ -111,6 +111,7 @@ section > .intro {
 
 .how-we-work {
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .how-we-work .content {
@@ -126,6 +127,7 @@ section > .intro {
 /* ______selected project section____ */
 .selected-project {
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .selected-project img{
@@ -150,6 +152,7 @@ section > .intro {
 /* ______review section____ */
 section.reviews {
   margin-bottom: 100px;
+  margin-top: 100px;
   background: #fff;
 }
 
