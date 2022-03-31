@@ -15,6 +15,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  margin: 10px 0;
 }
 h3 {
   font-size: 1.5rem;
@@ -120,6 +121,11 @@ section > .intro {
 }
 
 /* ______selected project section____ */
+.selected-project img{
+  width: 500px;
+}
+
+/* ______review section____ */
 section.reviews {
   margin-bottom: 100px;
   background: #fff;
