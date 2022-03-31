@@ -125,6 +125,17 @@ section > .intro {
   width: 500px;
 }
 
+.selected-project .project {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.selected-project p {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 /* ______review section____ */
 section.reviews {
   margin-bottom: 100px;
