@@ -152,11 +152,23 @@ section > .intro {
 
 /* ______challenges section____ */
 
+.challenges {
+  background: #233742;
+}
+
 .challenges-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
   text-align: center;
+}
+
+.challenge a {
+  text-decoration: none;
+  background: #fff;
+  color: #233742;
+  padding: 5px 10px;
+  border-radius: 7px;
 }
 
 /* ______review section____ */
