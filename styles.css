@@ -249,6 +249,11 @@ section.reviews {
   border-radius: 50%;
   height: 40px;
 }
+/* ______review section____ */
+
+.blogs h2{
+  text-align: center;
+}
 
 /* --------------------media query------------- */
 @media (max-width: 700px) {
