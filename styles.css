@@ -152,8 +152,9 @@ section > .intro {
 
 /* ______challenges section____ */
 
-.challenges {
+.challenge-background {
   background: #233742;
+  padding: 100px 0;
 }
 
 .challenges-div {
@@ -163,12 +164,18 @@ section > .intro {
   text-align: center;
 }
 
+.challenge h4 {
+  color: #fff;
+}
+
 .challenge a {
   text-decoration: none;
   background: #fff;
   color: #233742;
-  padding: 5px 10px;
+  padding: 7px 10px;
   border-radius: 7px;
+  margin: 10px 0;
+  display: block;
 }
 
 /* ______review section____ */
