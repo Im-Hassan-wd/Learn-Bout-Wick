@@ -130,8 +130,9 @@ section > .intro {
   margin-top: 100px;
 }
 
-.selected-project img{
+.selected-project img, .challenges img{
   width: 500px;
+  width: 100%;
 }
 
 .selected-project .project {
@@ -147,6 +148,15 @@ section > .intro {
 .selected-project .project div {
   max-width: 400px;
   margin: 0 auto;
+}
+
+/* ______challenges section____ */
+
+.challenges-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  text-align: center;
 }
 
 /* ______review section____ */
