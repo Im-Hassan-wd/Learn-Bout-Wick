@@ -333,6 +333,11 @@ input#search-btn {
     flex-direction: column;
   }
 
+  .project div {
+    padding: 0;
+    text-align: left;
+  }
+
   .selected-project > div > div:nth-child(2) > div {
     order: 0;
   }
