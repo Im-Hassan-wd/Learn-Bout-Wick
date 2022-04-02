@@ -147,6 +147,7 @@ section > .intro {
 .selected-project .project div {
   max-width: 400px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* ______challenges section____ */
@@ -326,5 +327,13 @@ input#search-btn {
   .navigation ul {
     padding-top: 20px;
     width: 80%;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .selected-project > div > div:nth-child(2) > div {
+    order: 0;
   }
 }
