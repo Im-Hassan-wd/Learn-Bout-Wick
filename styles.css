@@ -304,7 +304,7 @@ input#search,
 input#search-btn {
   margin: 5px 0;
   width: 250px;
-  border: 1px solid #000;
+  border: 1px solid #233742;
   height: 35px;
   padding-left: 10px;
   border-radius: none !important;
@@ -312,7 +312,7 @@ input#search-btn {
 
 input#search-btn {
   width: 80px;
-  background: #000;
+  background: #233742;
   color: #fff;
   padding: 5px;
   border-radius: none !important;
