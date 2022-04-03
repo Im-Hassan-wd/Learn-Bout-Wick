@@ -282,12 +282,8 @@ section.reviews {
 
 /* ______new letter section____ */
 
-.news-letter-backgroud {
-  background: #55afe3;
-}
-
 .news-letter-container {
-  background: #fff;
+  background: #ebbc24;
   padding: 70px 0;
   text-align: center;
 }
