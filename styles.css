@@ -222,7 +222,6 @@ section.reviews {
 .card {
   margin: 20px 10px 20px 0;
   box-shadow: 1px 3px 5px #b3aeae;
-  /* background: #fff; */
   padding: 10px 20px;
   min-width: 320px;
   display: flex;
@@ -282,6 +281,11 @@ section.reviews {
 }
 
 /* ______new letter section____ */
+
+.news-letter-backgroud {
+  background: #5d727e;
+}
+
 .news-letter-conatiner {
   background: #fff;
   padding: 70px 0;
