@@ -132,8 +132,7 @@ section > .intro {
 }
 
 .selected-project img {
-  width: 400px;
-  /* padding: 0 20px; */
+  width: 500px;
 }
 
 .selected-project .project {
