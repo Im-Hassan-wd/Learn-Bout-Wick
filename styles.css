@@ -318,6 +318,13 @@ input#search-btn {
   padding: 5px;
   border-radius: none !important;
 }
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
 /* --------------------media query------------- */
 @media (max-width: 700px) {
   .navigation {
