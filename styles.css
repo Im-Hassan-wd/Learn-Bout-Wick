@@ -127,7 +127,7 @@ section > .intro {
 
 /* ______selected project section____ */
 .selected-project {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 100px;
 }
 
@@ -139,7 +139,7 @@ section > .intro {
 .selected-project .project {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .selected-project > div > div:nth-child(2) > div {
@@ -166,7 +166,7 @@ section > .intro {
   text-align: center;
 }
 
-.challenge h4 {
+.challenge h4,.challenges h2 {
   color: #fff;
 }
 
