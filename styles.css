@@ -32,7 +32,8 @@ header {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 20px auto;
+  margin-bottom: 100px;
   max-width: 1150px;
   padding: 0 20px;
 }
@@ -131,7 +132,8 @@ section > .intro {
 }
 
 .selected-project img {
-  width: 500px;
+  max-width: 400px;
+  /* padding: 0 20px; */
 }
 
 .selected-project .project {
