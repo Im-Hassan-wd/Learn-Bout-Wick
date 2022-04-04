@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -133,6 +135,7 @@ section > .intro {
 
 .selected-project img {
   width: 500px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .selected-project .project {
