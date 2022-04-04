@@ -356,6 +356,10 @@ footer {
     flex-direction: column;
   }
 
+  .selected-project img {
+    width: 350px;
+  }
+
   .project div {
     padding: 0;
     text-align: left;
