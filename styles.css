@@ -209,6 +209,11 @@ section > .intro {
   display: block;
 }
 
+.challenge a:hover {
+  transition: 0.3s ease;
+  transform: rotate(2deg);
+}
+
 /* ______review section____ */
 section.reviews {
   margin-bottom: 100px;
