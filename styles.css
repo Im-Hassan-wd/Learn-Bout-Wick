@@ -205,6 +205,10 @@ section > .intro {
    transform: translateY(-5px);
  }
 
+.challenge {
+  margin-bottom: 20px
+} 
+
 .challenge a {
   text-decoration: none;
   background: #fff;
