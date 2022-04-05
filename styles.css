@@ -146,7 +146,7 @@ section > .intro {
   color: #233742;
 }
 
-.selected-project > div > div:nth-child(2) > div {
+.selected-project > div > a:nth-child(2) > div {
   order: -1;
 }
 
@@ -372,7 +372,7 @@ footer {
     text-align: left;
   }
 
-  .selected-project > div > div:nth-child(2) > div {
+  .selected-project > div > a:nth-child(2) > div {
     order: 0;
   }
 }
