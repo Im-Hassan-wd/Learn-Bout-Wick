@@ -61,13 +61,6 @@ header {
   padding: 0 10px;
 }
 
-.navigation li:nth-child(1) {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: -10px;
-}
-
 .navigation a {
   text-decoration: none;
   color: #ebbc24;
@@ -78,11 +71,8 @@ header {
   color: #233742;
 }
 
-.active-nav {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #ebbc24;
+.navigation a.active {
+  color: #233742;
 }
 
 .logo-div {
@@ -102,6 +92,16 @@ section > .intro {
 
 .intro {
   margin: 5% 0;
+  display: flex;
+  align-items: center;
+}
+
+.intro-image {
+  width: 800px;
+}
+
+.intro img {
+  width: 100%;
 }
 
 .intro h1 {
@@ -391,6 +391,10 @@ footer {
   .navigation ul {
     padding-top: 20px;
     width: 80%;
+  }
+
+  .intro-image {
+    display: none;
   }
 
   .project {
