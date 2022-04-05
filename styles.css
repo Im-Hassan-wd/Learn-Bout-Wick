@@ -123,6 +123,11 @@ section > .intro {
   gap: 1rem;
 }
 
+.content div {
+  margin-bottom: 30px;
+
+}
+
 .how-we-work img {
   width: 40px;
 }
