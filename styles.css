@@ -142,6 +142,8 @@ section > .intro {
   display: flex;
   align-items: center;
   margin: 50px 0;
+  text-decoration: none;
+  color: #233742;
 }
 
 .selected-project > div > div:nth-child(2) > div {
