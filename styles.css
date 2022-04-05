@@ -355,8 +355,13 @@ input#search-btn {
   color: #fff;
   padding: 5px;
   border-radius: none !important;
+}
+
+input#search-btn:hover {
   transition: 0.3s ease;
+  width: 85px;
   letter-spacing: 1px;
+
 }
 
 footer {
