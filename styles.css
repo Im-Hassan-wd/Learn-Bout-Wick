@@ -312,6 +312,11 @@ section.reviews {
   display: inline-block;
 }
 
+.blog a:hover {
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+}
+
 /* ______new letter section____ */
 
 .news-letter-container {
@@ -350,6 +355,8 @@ input#search-btn {
   color: #fff;
   padding: 5px;
   border-radius: none !important;
+  transition: 0.3s ease;
+  letter-spacing: 1px;
 }
 
 footer {
