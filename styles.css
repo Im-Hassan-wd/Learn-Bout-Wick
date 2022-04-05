@@ -298,10 +298,11 @@ section.reviews {
 
 .blogs h2{
   text-align: center;
+  text-decoration: underline;
 }
 
 .blog-title {
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .blog-snippet,.blog-body {
@@ -310,6 +311,7 @@ section.reviews {
 
 .blog a {
   background: #233742;
+  text-decoration: underline;
   color: #fafafa;
   text-decoration: none;
   padding: 7px 10px;
