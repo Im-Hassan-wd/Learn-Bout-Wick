@@ -254,7 +254,7 @@ section.reviews {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
@@ -262,7 +262,7 @@ section.reviews {
   margin: 20px 10px 20px 0;
   box-shadow: 1px 3px 5px #b3aeae;
   padding: 10px 20px;
-  max-width: 320px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
 }
