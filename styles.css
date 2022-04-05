@@ -308,7 +308,7 @@ section.reviews {
   text-decoration: none;
   padding: 7px 10px;
   margin: 10px 0;
-  border-radius: 50px;
+  border-radius: 10px;
   display: inline-block;
 }
 
@@ -341,6 +341,7 @@ input#search-btn {
   height: 35px;
   padding-left: 10px;
   border-radius: none !important;
+  border-radius: 10px;
 }
 
 input#search-btn {
