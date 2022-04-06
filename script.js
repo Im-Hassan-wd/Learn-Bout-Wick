@@ -11,7 +11,7 @@ function scrollAppear(){
     const projectDivPosition = div.getBoundingClientRect().top;
     const screenPosition = window.innerHeight / 1.3;
     if (projectDivPosition < screenPosition) {
-      div.classList.add('active');
+      div.classList.add('appear');
     }
   });
 }
