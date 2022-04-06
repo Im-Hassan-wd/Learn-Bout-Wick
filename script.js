@@ -9,9 +9,9 @@ window.addEventListener('scroll', scrollAppear)
 function scrollAppear(){
   projectDivs.foreach(div => {
     const projectDivPosition = div.getBoundingClientRect().top;
-    const screenPosition = window.imnerHeight / 1.3;
+    const screenPosition = window.innerHeight / 1.3;
     if (projectDivPosition < screenPosition) {
-      projectDiv.classList.add('active');
+      div.classList.add('active');
     }
   });
 }
