@@ -315,6 +315,11 @@ section.reviews {
 .blogs h2{
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.blog {
+  margin: 20px 0;
 }
 
 .blog-title {
