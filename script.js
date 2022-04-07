@@ -8,9 +8,11 @@ window.addEventListener('scroll', scrollAppear);
 function scrollAppear(){
   projectDivs.forEach(div => {
     const projectDivPosition = div.getBoundingClientRect().top;
-    const screenPosition = window.innerHeight / 1.3;
+    const screenPosition = window.innerHeight / 2;
     if (projectDivPosition < screenPosition) {
       div.classList.add('appear');
+    } else {
+      div.classList.remove('appear');
     }
   });
 }
