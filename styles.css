@@ -458,14 +458,14 @@ footer {
 }
 
 form {
-  width: 360px;
+  max-width: 450px;
   margin: 0 auto;
   padding: 30px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background: white;
 }
-input {
+input, textarea {
   padding: 10px 12px;
   border-radius: 4px;
   border: 1px solid #ddd;
