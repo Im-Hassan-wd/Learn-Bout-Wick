@@ -118,6 +118,7 @@ section > .intro {
   max-width: 450px;
   line-height: 3rem;
   margin: 20px 0 10px 0;
+  letter-spacing: -0.5;
 }
 
 .intro p {
