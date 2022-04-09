@@ -472,6 +472,9 @@ input, textarea {
   font-size: 0.9rem;
   width: 100%;
 }
+textarea {
+  resize: none; 
+}
 label {
   display: block;
   margin: 20px 0 10px;
