@@ -21,8 +21,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.8rem;
 }
 h2 {
   font-size: 2.5rem;
@@ -115,10 +114,10 @@ section > .intro {
 }
 
 .intro h1 {
-  max-width: 500px;
-  line-height: 3rem;
+  max-width: 450px;
+  line-height: 2.7rem;
   margin: 20px 0 10px 0;
-  letter-spacing: -0.5;
+  letter-spacing: -0.5px;
 }
 
 .intro p {
