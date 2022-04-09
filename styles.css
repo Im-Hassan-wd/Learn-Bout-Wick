@@ -427,6 +427,11 @@ footer {
     margin-top: 20px;
   }
 
+  .intro h1{
+    width: 100%;
+} 
+
+
   .intro-image {
     display: none;
   }
