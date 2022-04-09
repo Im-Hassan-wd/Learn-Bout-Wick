@@ -451,6 +451,12 @@ footer {
   transition: 0.4s ease;
 }
 
+/* contact form */
+
+.contact h3{
+  text-align: center;
+}
+
 form {
   width: 360px;
   margin: 0 auto;
