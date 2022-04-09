@@ -7,10 +7,13 @@
   font-family: "Quicksand", sans-serif;
 }
 
+html  {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #233742;
   background: #fafafa;
-  scroll-behaviour: smooth;
 }
 
 h1, h2, h3, h4 {
