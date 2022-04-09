@@ -73,8 +73,12 @@ nav.navigation {
   color: #233742;
 }
 
-.navigation a.active, .h1{
+.navigation a.active{
   color: #233742;
+}
+
+.h1.{
+  color: #ebbc24;
 }
 
 .logo-div {
