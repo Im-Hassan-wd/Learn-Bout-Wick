@@ -4,11 +4,19 @@ const allImages = document.querySelectorAll('img');
 
 // Event listeners
 window.addEventListener('scroll', scrollAppear);
+
+
+
+
+
 allImages.forEach((image) => {
   image.addEventListener('contextmenu', e => {
     e.preventDefault();
   })
 })
+
+
+
 
 // Functions 
 function scrollAppear(){
