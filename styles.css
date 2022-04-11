@@ -405,6 +405,11 @@ footer {
   margin: 20px 0;
 }
 
+/* ________projects page_______ */
+#projects img{
+  width: 100%;
+}
+
 
 /* --------------------media query------------- */
 @media (max-width: 700px) {
