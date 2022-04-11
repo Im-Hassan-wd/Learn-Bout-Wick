@@ -410,6 +410,11 @@ footer {
   width: 100%;
 }
 
+#projects .project {
+  margin: 20px 0;
+  padding: 15px;
+}
+
 
 /* --------------------media query------------- */
 @media (max-width: 700px) {
