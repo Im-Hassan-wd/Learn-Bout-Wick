@@ -7,6 +7,10 @@
   font-family: "Quicksand", sans-serif;
 }
 
+html  {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #233742;
   background: #fafafa;
@@ -17,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 h2 {
   font-size: 2.5rem;
@@ -72,8 +76,12 @@ nav.navigation {
   color: #233742;
 }
 
-.navigation a.active {
+.navigation a.active{
   color: #233742;
+}
+
+.hi {
+  color: #ebbc24;
 }
 
 .logo-div {
@@ -107,8 +115,8 @@ section > .intro {
 
 .intro h1 {
   max-width: 450px;
-  line-height: 3rem;
   margin: 20px 0 10px 0;
+  letter-spacing: -0.5px;
 }
 
 .intro p {
@@ -146,13 +154,20 @@ section > .intro {
 .selected-project img {
   width: 400px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-  transition: 0.3s ease;
-  transform: scale(0.9);
+  transition: 0.4s ease;
+  transform: translateX(-50px);
+  opacity: 0;
 }
+
+.selected-project img.active {
+  transition: 0.4s ease;
+  transform: translateX(0px);
+  opacity: 1;
+} 
 
 .selected-project img:hover {
   transition: 0.3s ease;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 .selected-project .project {
@@ -325,7 +340,7 @@ section.reviews {
   max-width: 400px;
 }
 
-.blog-snippet,.blog-body {
+.blog-snippet {
   max-width: 400px;
 }
 
@@ -397,6 +412,16 @@ footer {
   margin: 20px 0;
 }
 
+/* ________projects page_______ */
+#projects img{
+  width: 100%;
+}
+
+#projects .project {
+  margin: 20px 0;
+  padding: 15px;
+}
+
 
 /* --------------------media query------------- */
 @media (max-width: 700px) {
@@ -421,6 +446,11 @@ footer {
     width: 80%;
     margin-top: 20px;
   }
+
+  .intro h1{
+    width: 100%;
+} 
+
 
   .intro-image {
     display: none;
