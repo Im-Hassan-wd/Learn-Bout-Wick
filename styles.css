@@ -161,19 +161,19 @@ section > .intro {
 
 .selected-project img.appear {
   transition: 0.4s ease;
-  transform: translateX(0px);
+  transform: scale(0.9) translateX(0px);
   opacity: 1;
 } 
 
 .selected-project img:hover {
-  transition: 0.3s ease;
-  transform: scale(1.1);
+  transition: 0.4s ease;
+  transform: scale(1);
 }
 
 .selected-project .project {
   display: flex;
   align-items: center;
-  margin: 50px 0;
+  margin: 100px 0;
   text-decoration: none;
   color: #233742;
 }
@@ -461,7 +461,7 @@ footer {
   }
 
   .selected-project img {
-    width: 350px;
+    width: 380px;
   }
 
   .project div {
@@ -472,11 +472,4 @@ footer {
   .selected-project > div > a:nth-child(2) > div {
     order: 0;
   }
-}
-
-.site {
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
