@@ -106,7 +106,8 @@ section > .intro {
 }
 
 .intro-image {
-  width: 800px;
+  width: 400px;
+  padding: 5px;
 }
 
 .intro img {
@@ -114,7 +115,7 @@ section > .intro {
 }
 
 .intro h1 {
-  max-width: 450px;
+  max-width: 500px;
   margin: 20px 0 10px 0;
   letter-spacing: -0.5px;
 }
@@ -461,7 +462,7 @@ footer {
   }
 
   .selected-project img {
-    width: 380px;
+    width: 350px;
   }
 
   .project div {
