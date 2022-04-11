@@ -154,16 +154,19 @@ section > .intro {
 }
 
 .selected-project img {
-  width: 400px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
   transition: 0.4s ease;
-  transform: translateX(-50px);
+  transform: scale(0.9) translateX(-50px);
   opacity: 0;
+  width: 0;
+  overflow: hidden;
 }
 
 .selected-project img.appear {
+  width: 400px;
   transition: 0.4s ease;
-  transform: scale(0.9) translateX(0px);
+  transform: translateX(0px);
+  overflow: auto;
   opacity: 1;
 } 
 
