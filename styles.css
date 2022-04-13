@@ -160,6 +160,7 @@ section > .intro {
   opacity: 0;
   width: 0;
   overflow: hidden;
+padding: 10px;
 }
 
 .selected-project img.appear {
