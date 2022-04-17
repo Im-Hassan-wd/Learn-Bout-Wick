@@ -160,14 +160,14 @@ section > .intro {
   opacity: 0;
   width: 0;
   overflow: hidden;
-padding: 10px;
 }
 
 .selected-project img.appear {
+  width: 400px;
   max-width: 400px;
   transition: 0.4s ease;
   transform: translateX(0px);
-  overflow: auto;
+  overflow: none;
   opacity: 1;
 } 
 
