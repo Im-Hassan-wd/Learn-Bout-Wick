@@ -109,7 +109,7 @@ li svg {
   font-size: 1.1rem;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 500px) {
   .content-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
