@@ -62,12 +62,21 @@ li svg {
   margin-left: 5px;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .logo {
   font-weight: bold;
   font-size: 1.5rem;
   padding: 5px;
-  border-bottom: 1px solid #e4e2e2;
+}
+
+.burger {
+  width: 25px;
+  display: none;
 }
 
 .blog-description {
@@ -112,5 +121,11 @@ li svg {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+}
+
+@media (max-width: 449px) {
+  .burger {
+    display: flex;
   }
 }
