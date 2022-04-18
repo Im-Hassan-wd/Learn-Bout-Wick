@@ -211,6 +211,10 @@ section > .intro {
   margin-bottom: 50px;
 }
 
+.challenge h4 {
+  margin-bottom: 10px;
+}
+
 .challenges img {
   width: 100%;
   border-radius: 7px;
