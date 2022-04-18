@@ -118,6 +118,9 @@ li svg {
     display: flex;
     justify-content: flex-end;
   }
+  nav {
+    position: fixed;
+  }
   li a {
     display: flex;
     justify-content: flex-end;
