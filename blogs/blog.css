@@ -53,6 +53,8 @@ li.active {
 li a {
   text-decoration: none;
   color: #233742;
+  display: flex;
+  align-items: center;
 }
 
 li svg {
