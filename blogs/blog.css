@@ -66,6 +66,7 @@ li svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e4e2e2;
 }
 
 .logo {
@@ -77,6 +78,8 @@ li svg {
 .burger {
   width: 25px;
   display: none;
+  background: none;
+  cursor: pointer;
 }
 
 .blog-description {
