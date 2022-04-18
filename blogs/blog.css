@@ -45,12 +45,16 @@ nav ul li{
   padding-right: 10px;
 }
 
-
 li a {
   text-decoration: none;
   color: #233742;
   display: flex;
   align-items: center;
+}
+
+li a:hover {
+  transition: 0.5s ease;
+  transform: translateX(-10px);
 }
 
 li svg {
@@ -121,14 +125,17 @@ li svg {
   nav {
     position: fixed;
   }
+  ul li{
+    border-right: 3px solid #fff;
+  }
+  ul li.active {
+    font-weight: bold;
+    border-right: 3px solid #ebbc24;
+  }
   li a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  li.active {
-    font-weight: bold;
-    border-right: 3px solid #ebbc24;
   }
 }
 
