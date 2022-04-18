@@ -136,4 +136,13 @@ li svg {
   .burger {
     display: flex;
   }
+  nav ul {
+    display: none;
+  }
+  nav ul.active {
+    display: block;
+  }
+  .blog-description {
+    padding-top: 0;
+  }
 }
