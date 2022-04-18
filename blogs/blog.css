@@ -129,7 +129,7 @@ li svg {
   }
 }
 
-@media (max-width: 449px) {
+@media (max-width: 499px) {
   .burger {
     display: flex;
   }
