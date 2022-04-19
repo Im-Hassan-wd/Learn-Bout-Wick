@@ -340,11 +340,11 @@ section.reviews {
   background: none;
   padding: 3px;
   border: none;
+  margin-top:30px;
 }
 
 .blog svg {
   width: 25px;
-  margin-top:30px;
 }
 
 .blog {
