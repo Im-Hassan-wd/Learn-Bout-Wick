@@ -1,6 +1,5 @@
 const body = document.querySelector('body');
 const projectDivs = document.querySelectorAll('.project div');
-const projectImages = document.querySelectorAll('.project img');
 const navLists = document.querySelectorAll('nav li a');
 const cards = document.querySelectorAll('.card');
 
