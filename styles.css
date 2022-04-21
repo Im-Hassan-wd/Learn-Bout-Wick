@@ -563,4 +563,12 @@ button {
   .selected-project > div > a:nth-child(2) > div {
     order: 0;
   }
+
+}
+
+@media (max-width: 450px) {
+  .blog div{
+    width: 300px;
+  }
+
 }
